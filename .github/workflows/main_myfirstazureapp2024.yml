@@ -6,7 +6,7 @@ name: Build and deploy JAR app to Azure Web App - myfirstazureapp2024
 on:
   push:
     branches:
-      - main
+      - Azure-Samples/azure-spring-apps-samples:main
   workflow_dispatch:
 
 jobs:
